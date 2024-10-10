@@ -1,0 +1,163 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /FIFO_top/dut
+=== Design Unit: work.FIFO
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      31        31         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/FIFO_top/dut/overflow_assert_1
+                     FIFO.sv(107)                       0          1
+/FIFO_top/dut/underflow_assert_1
+                     FIFO.sv(108)                       0          1
+/FIFO_top/dut/wr_ack_assert_1
+                     FIFO.sv(109)                       0          1
+/FIFO_top/dut/overflow_assert_2
+                     FIFO.sv(114)                       0          1
+/FIFO_top/dut/underflow_assert_2
+                     FIFO.sv(115)                       0          1
+/FIFO_top/dut/wr_ack_assert_2
+                     FIFO.sv(116)                       0          1
+/FIFO_top/dut/full_assert_1
+                     FIFO.sv(123)                       0          1
+/FIFO_top/dut/empty_assert_1
+                     FIFO.sv(124)                       0          1
+/FIFO_top/dut/almostfull_assert_1
+                     FIFO.sv(125)                       0          1
+/FIFO_top/dut/almostempty_assert_1
+                     FIFO.sv(126)                       0          1
+/FIFO_top/dut/full_assert_2
+                     FIFO.sv(132)                       0          1
+/FIFO_top/dut/empty_assert_2
+                     FIFO.sv(133)                       0          1
+/FIFO_top/dut/almostfull_assert_2
+                     FIFO.sv(134)                       0          1
+/FIFO_top/dut/almostempty_assert_2
+                     FIFO.sv(135)                       0          1
+/FIFO_top/dut/rd_count_assert
+                     FIFO.sv(144)                       0          1
+/FIFO_top/dut/wr_count_assert
+                     FIFO.sv(145)                       0          1
+/FIFO_top/dut/rd_wr_count_assert
+                     FIFO.sv(146)                       0          1
+/FIFO_top/dut/rd_ptr_assert
+                     FIFO.sv(154)                       0          1
+/FIFO_top/dut/wr_ptr_assert
+                     FIFO.sv(155)                       0          1
+/FIFO_top/dut/almostfull_full_assert
+                     FIFO.sv(164)                       0          1
+/FIFO_top/dut/almostempty_empty_assert
+                     FIFO.sv(167)                       0          1
+/FIFO_top/dut/rst_count_assert
+                     FIFO.sv(175)                       0          1
+/FIFO_top/dut/rst_rd_ptr_assert
+                     FIFO.sv(176)                       0          1
+/FIFO_top/dut/rst_wr_ptr_assert
+                     FIFO.sv(177)                       0          1
+/FIFO_top/dut/rst_full_assert
+                     FIFO.sv(178)                       0          1
+/FIFO_top/dut/rst_empty_assert
+                     FIFO.sv(179)                       0          1
+/FIFO_top/dut/rst_almostfull_assert
+                     FIFO.sv(180)                       0          1
+/FIFO_top/dut/rst_almostempty_assert
+                     FIFO.sv(181)                       0          1
+/FIFO_top/dut/rst_overflow_assert
+                     FIFO.sv(183)                       0          1
+/FIFO_top/dut/rst_underflow_assert
+                     FIFO.sv(184)                       0          1
+/FIFO_top/dut/rst_wr_ack_assert
+                     FIFO.sv(185)                       0          1
+
+=================================================================================
+=== Instance: /FIFO_top/tb
+=== Design Unit: work.FIFO_tb
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/FIFO_top/tb/#ublk#182146786#17/immed__18
+                     FIFO_tb.sv(18)                     0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/FIFO_top/dut/overflow_assert_1
+                     FIFO.sv(107)                       0          1
+/FIFO_top/dut/underflow_assert_1
+                     FIFO.sv(108)                       0          1
+/FIFO_top/dut/wr_ack_assert_1
+                     FIFO.sv(109)                       0          1
+/FIFO_top/dut/overflow_assert_2
+                     FIFO.sv(114)                       0          1
+/FIFO_top/dut/underflow_assert_2
+                     FIFO.sv(115)                       0          1
+/FIFO_top/dut/wr_ack_assert_2
+                     FIFO.sv(116)                       0          1
+/FIFO_top/dut/full_assert_1
+                     FIFO.sv(123)                       0          1
+/FIFO_top/dut/empty_assert_1
+                     FIFO.sv(124)                       0          1
+/FIFO_top/dut/almostfull_assert_1
+                     FIFO.sv(125)                       0          1
+/FIFO_top/dut/almostempty_assert_1
+                     FIFO.sv(126)                       0          1
+/FIFO_top/dut/full_assert_2
+                     FIFO.sv(132)                       0          1
+/FIFO_top/dut/empty_assert_2
+                     FIFO.sv(133)                       0          1
+/FIFO_top/dut/almostfull_assert_2
+                     FIFO.sv(134)                       0          1
+/FIFO_top/dut/almostempty_assert_2
+                     FIFO.sv(135)                       0          1
+/FIFO_top/dut/rd_count_assert
+                     FIFO.sv(144)                       0          1
+/FIFO_top/dut/wr_count_assert
+                     FIFO.sv(145)                       0          1
+/FIFO_top/dut/rd_wr_count_assert
+                     FIFO.sv(146)                       0          1
+/FIFO_top/dut/rd_ptr_assert
+                     FIFO.sv(154)                       0          1
+/FIFO_top/dut/wr_ptr_assert
+                     FIFO.sv(155)                       0          1
+/FIFO_top/dut/almostfull_full_assert
+                     FIFO.sv(164)                       0          1
+/FIFO_top/dut/almostempty_empty_assert
+                     FIFO.sv(167)                       0          1
+/FIFO_top/dut/rst_count_assert
+                     FIFO.sv(175)                       0          1
+/FIFO_top/dut/rst_rd_ptr_assert
+                     FIFO.sv(176)                       0          1
+/FIFO_top/dut/rst_wr_ptr_assert
+                     FIFO.sv(177)                       0          1
+/FIFO_top/dut/rst_full_assert
+                     FIFO.sv(178)                       0          1
+/FIFO_top/dut/rst_empty_assert
+                     FIFO.sv(179)                       0          1
+/FIFO_top/dut/rst_almostfull_assert
+                     FIFO.sv(180)                       0          1
+/FIFO_top/dut/rst_almostempty_assert
+                     FIFO.sv(181)                       0          1
+/FIFO_top/dut/rst_overflow_assert
+                     FIFO.sv(183)                       0          1
+/FIFO_top/dut/rst_underflow_assert
+                     FIFO.sv(184)                       0          1
+/FIFO_top/dut/rst_wr_ack_assert
+                     FIFO.sv(185)                       0          1
+/FIFO_top/tb/#ublk#182146786#17/immed__18
+                     FIFO_tb.sv(18)                     0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

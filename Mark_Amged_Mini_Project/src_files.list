@@ -1,0 +1,9 @@
+FIFO_interface.sv
+shared_pkg.sv
+FIFO_transaction_pkg.sv
+FIFO_coverage_pkg.sv
+FIFO_scoreboard_pkg.sv
+FIFO_monitor.sv
+FIFO.sv
+FIFO_tb.sv
+FIFO_top.sv
